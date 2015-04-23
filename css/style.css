@@ -21,6 +21,7 @@ h2{
   color: #338caf;
   font-size: 2em;
   margin-bottom: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 p, li{
@@ -277,14 +278,7 @@ footer {
 
 footer p{
   color: #FFF;
-}
-
-footer .glyphicon {
-  color: #333333;
-  font-size: 60px;
-}
-footer .glyphicon:hover {
-  color: #306d9f;
+  font-size: 16px;
 }
 
 ul.dates{
@@ -316,18 +310,17 @@ ul.dates{
   #who .container,
   #sponsors .container,
   #resources .container{
-    padding-top: 100px;
-    padding-bottom: 100px
+    padding-top: 50px;
+    padding-bottom: 50px
   }
 
   #when #dates{
-    height: 260px;
+    height: 290px;
   }
 
 }
 
 /* iframe styling */
-
 iframe.highlight{
   background: none !important;
 }
