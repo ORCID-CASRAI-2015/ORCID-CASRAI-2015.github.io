@@ -41,7 +41,7 @@ $(document).ready(function (){
   }
   scrollIt();
 
-  $("#schedule").lazyload({
+  $("#results").lazyload({
       effect : "fadeIn"
   });
 

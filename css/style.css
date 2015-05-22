@@ -24,6 +24,10 @@ h2{
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+h4{
+  color: #FFF;
+}
+
 p, li{
   font-size: 18px;
 }
@@ -219,7 +223,7 @@ ul.nav li a,
   text-align: center;
 }
 
-#schedule {  
+#results {  
   display: block;
   min-height: 800px;
   height: auto;
@@ -231,13 +235,22 @@ ul.nav li a,
   width: 100%;
 }
 
-#schedule table{
+#results table{
   color: #FFF;
   font-size: 20px;
 }
 
-#schedule table thead tr{
+#results table thead tr{
   font-size: 25px;
+}
+
+#results a{
+  color: #e47d00;
+  text-decoration: none;
+}
+
+#results a:hover{
+  color: #FFF;
 }
 
 
